@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,9 @@
             <div class="row">
                 <div class="col text-center p-5">
                     <h1>
-                         <img src="/img/logo.svg" alt="Stavby MAJ. My Budujeme!" class="p-5 img-fluid logo">
+                        <a href="/">
+                            <img src="/img/logo.svg" alt="Stavby MAJ. My Budujeme!" aria-label="Logo společnosti Stavby Máj, Odkaz na hlavní stránku" class="p-5 img-fluid logo">
+                        </a>
                     </h1>
                 </div>
             </div>
@@ -62,34 +64,31 @@
         </div>
     </section>
 
-    <div class="container-fluid">
+    <div class="container-fluid" aria-hidden="true">
         <div class="row px-5">    
             <hr>
         </div>
     </div>
        
-    <section class="content">
+    <footer class="content">
         <div class="container">
 
             <div class="row pb-4 pt-4">
                 <div class="col p-5">
 
-                    <h2>Stavby MaJ s.r.o.</h2>
+                    <h2 aria-label="Společnost Stavby Máj SRO">Stavby MaJ s.r.o.</h2>
                     <address>
-                        Podlesí 432, Valašské Meziříčí, 757 01 <br>
-                        IČ: 07019874 <br>
-                        Adam Michalec <a class="tel" href="tel:+420724216943">+420 724 216 943</a> <br>
-                        <a class="mail" href="mailto:info@stavbymaj.cz">info@stavbymaj.cz</a>
+                        <p>Podlesí 432, Valašské Meziříčí, 757 01</p>
+                        <p>IČ: 07019874</p>
+                        <p>Adam Michalec <a class="tel" href="tel:+420724216943" aria-label="Telefonní číslo: 724-216-943">+420 724 216 943</a></p>
+                        <p><a class="mail" href="mailto:info@stavbymaj.cz" aria-label="E-mail: info@ stavby máj .cz">info@stavbymaj.cz</a></p>
                     </address>
                     
                 </div>
             </div>
 
         </div>
-    </section>
+    </footer>
        
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
 </html>
